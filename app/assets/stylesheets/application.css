@@ -42,49 +42,37 @@
   }
 #columns {
   background: #141;
+}
 
-  /*#main {
-    margin-left: 17em;
-    padding: 1em;
-    background: white;
-  }*/
-  /*#side {
+#side {
     float: left;
     padding: 1em 2em;
     width: 13em;
     background: #141;
-    ul {
-      padding: 0;
-      li {
-        list-style: none;
-        a {
-          color: #bfb;
-          font-size: small;
-        }
-      }
-    }
-  }*/
- }
- #side {
-    float: left;
-    padding: 1em 2em;
-    width: 13em;
-    background: #141;
-    /*ul {
-      padding: 0;
-      li {
-        list-style: none;
-        a {
-          color: #bfb;
-          font-size: small;
-        }
-      }
-    }*/
-  }
+}
 
 #side ul {padding: 0}
 #side ul li {list-style: none}
 #side ul li a { 
   color: #bfb;
   font-size: small;
+  text-decoration: none;
+}
+
+#side {
+  form, div {
+    display: inline;
+  }
+  input {
+    font-size: small;
+  }
+}
+#sidet  #cart {
+  font-size: smaller;
+  color:  white;
+}
+#sidet  #cart  table {
+  border-top:  1px dotted #595;
+  border-bottom: 1px dotted #595;
+  margin-bottom: 10px;
 }
