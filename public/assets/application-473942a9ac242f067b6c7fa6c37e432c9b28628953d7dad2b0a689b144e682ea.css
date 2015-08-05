@@ -1,0 +1,298 @@
+/* line 5, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 9, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+/* line 14, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_image {
+  width: 60px;
+  height: 70px;
+}
+
+/* line 19, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_description {
+  width: 60%;
+  /*dl {
+    margin: 0;
+  }
+
+  dt {
+    color: #244;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  dd {
+    margin: 0;
+  }*/
+}
+
+/* line 36, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_description dl {
+  margin: 0;
+}
+
+/* line 40, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_description dt {
+  color: #244;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* line 45, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_description dd {
+  margin: 0;
+}
+
+/* line 49, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_actions {
+  font-size: x-small;
+  text-align: right;
+  padding-left: 1em;
+}
+
+/* line 55, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_line_even {
+  background: #e0f8f8;
+}
+
+/* line 59, /home/chuongvv/ruby/depot/app/assets/stylesheets/products.scss */
+.list_line_odd {
+  background: #f8b0f8;
+}
+/* line 1, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /home/chuongvv/ruby/depot/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 5, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+h1 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font: 150% sans-serif;
+  color: #226;
+  border-bottom: 3px dotted #77d;
+}
+
+/* An entry in the store catalog */
+/* line 14, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry {
+  overflow: auto;
+  margin-top: 1em;
+  border-bottom: 1px dotted #77d;
+  min-height: 100px;
+}
+/* line 20, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry img {
+  width: 80px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  /*position: absolute;*/
+  float: left;
+}
+/* line 28, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry h3 {
+  font-size: 120%;
+  font-family: sans-serif;
+  margin-left: 100px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #227;
+}
+/* line 37, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry p .price_line {
+  margin-left: 100px;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+/* line 42, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry div .price_line {
+  margin-left: 100px;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+/* line 48, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry .price {
+  color: #44a;
+  font-weight: bold;
+  margin-right: 3em;
+}
+/* line 53, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry .price form {
+  display: inline;
+}
+/* line 56, /home/chuongvv/ruby/depot/app/assets/stylesheets/store.scss */
+.entry .price div {
+  display: inline;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+#banner {
+  background: #9c9;
+  padding: 10px;
+  border-bottom: 2px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: #282;
+  text-align: center;
+}
+#banner img{
+  float: left;
+    height: 40px;
+    width: 40px
+}
+/*#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+}*/
+#main {
+    margin-left: 17em;
+    padding: 1em;
+    background: white;
+  }
+#columns {
+  background: #141;
+
+  /*#main {
+    margin-left: 17em;
+    padding: 1em;
+    background: white;
+  }*/
+  /*#side {
+    float: left;
+    padding: 1em 2em;
+    width: 13em;
+    background: #141;
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+        a {
+          color: #bfb;
+          font-size: small;
+        }
+      }
+    }
+  }*/
+ }
+ #side {
+    float: left;
+    padding: 1em 2em;
+    width: 13em;
+    background: #141;
+    /*ul {
+      padding: 0;
+      li {
+        list-style: none;
+        a {
+          color: #bfb;
+          font-size: small;
+        }
+      }
+    }*/
+  }
+
+#side ul {padding: 0}
+#side ul li {list-style: none}
+#side ul li a { 
+  color: #bfb;
+  font-size: small;
+}
